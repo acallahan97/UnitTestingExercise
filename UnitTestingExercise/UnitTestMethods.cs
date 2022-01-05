@@ -36,15 +36,15 @@ namespace UnitTestingExercise
 
         // Create 2 methods that will utilize the [Fact] tests you wrote
 
-       public int SmallerNumber(int one, int two)
+       public int SmallerNumber(int a, int b)
         {
-            if (one < two)
+            if (a < b)
             {
-                return one;
+                return a;
             }
             else
             {
-                return two;
+                return b;
             }
         }
         public int BiggerNumber(int one, int two)
